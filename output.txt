@@ -1,0 +1,85 @@
+model name is GaussianNB()
+************************
+confusion metrics
+[[3281 1268]
+ [ 920 3567]]
+************************
+classification report
+              precision    recall  f1-score   support
+
+           0       0.78      0.72      0.75      4549
+           1       0.74      0.79      0.77      4487
+
+    accuracy                           0.76      9036
+   macro avg       0.76      0.76      0.76      9036
+weighted avg       0.76      0.76      0.76      9036
+
+*************************************************************************
+model name is KNeighborsClassifier(n_neighbors=7)
+************************
+confusion metrics
+[[3734  815]
+ [ 597 3890]]
+************************
+classification report
+              precision    recall  f1-score   support
+
+           0       0.86      0.82      0.84      4549
+           1       0.83      0.87      0.85      4487
+
+    accuracy                           0.84      9036
+   macro avg       0.84      0.84      0.84      9036
+weighted avg       0.84      0.84      0.84      9036
+
+*************************************************************************
+model name is SVC()
+************************
+confusion metrics
+[[3869  680]
+ [ 931 3556]]
+************************
+classification report
+              precision    recall  f1-score   support
+
+           0       0.81      0.85      0.83      4549
+           1       0.84      0.79      0.82      4487
+
+    accuracy                           0.82      9036
+   macro avg       0.82      0.82      0.82      9036
+weighted avg       0.82      0.82      0.82      9036
+
+*************************************************************************
+model name is DecisionTreeClassifier(criterion='entropy')
+************************
+confusion metrics
+[[4237  312]
+ [ 353 4134]]
+************************
+classification report
+              precision    recall  f1-score   support
+
+           0       0.92      0.93      0.93      4549
+           1       0.93      0.92      0.93      4487
+
+    accuracy                           0.93      9036
+   macro avg       0.93      0.93      0.93      9036
+weighted avg       0.93      0.93      0.93      9036
+
+*************************************************************************
+model name is RandomForestClassifier(random_state=42)
+************************
+confusion metrics
+[[4223  326]
+ [ 402 4085]]
+************************
+classification report
+              precision    recall  f1-score   support
+
+           0       0.91      0.93      0.92      4549
+           1       0.93      0.91      0.92      4487
+
+    accuracy                           0.92      9036
+   macro avg       0.92      0.92      0.92      9036
+weighted avg       0.92      0.92      0.92      9036
+
+*************************************************************************
